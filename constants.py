@@ -1,0 +1,8 @@
+import pygame
+pygame.init()
+WINDOW_WIDTH = 360
+WINDOW_HEIGHT = 640
+PLAYER_CENTER_X = WINDOW_WIDTH // 3.5
+FONT = pygame.font.Font(None, 35)
+OBSTACLE_CREATE_TIME = 5000
+BLUE = '#3D59AB'
